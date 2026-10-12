@@ -1,0 +1,119 @@
+{
+  "photos": [
+    {
+      "file": "math.jpg",
+      "author": "cottonbro studio",
+      "page": "https://www.pexels.com/photo/person-using-a-calculator-5184955/",
+      "url": "https://images.pexels.com/photos/5184955/pexels-photo-5184955.jpeg?auto=compress&cs=tinysrgb&w=1000&q=85",
+      "license": "Pexels License"
+    },
+    {
+      "file": "reading.jpg",
+      "author": "Jessika Arraes",
+      "page": "https://www.pexels.com/photo/open-book-on-desk-19561464/",
+      "url": "https://images.pexels.com/photos/19561464/pexels-photo-19561464/free-photo-of-open-book-on-desk.jpeg?auto=compress&cs=tinysrgb&w=1000&q=85",
+      "license": "Pexels License"
+    },
+    {
+      "file": "history.jpg",
+      "author": "Radis B",
+      "page": "https://www.pexels.com/photo/a-mosque-with-a-blue-dome-and-green-trees-27706764/",
+      "url": "https://images.pexels.com/photos/27706764/pexels-photo-27706764/free-photo-of-a-mosque-with-a-blue-dome-and-green-trees.jpeg?auto=compress&cs=tinysrgb&w=1000&q=85",
+      "license": "Pexels License"
+    },
+    {
+      "file": "student.jpg",
+      "author": "Gera Cejas",
+      "page": "https://www.pexels.com/photo/student-studying-in-classroom-with-natural-light-37757979/",
+      "url": "https://images.pexels.com/photos/37757979/pexels-photo-37757979.jpeg?auto=compress&cs=tinysrgb&w=1200&q=85",
+      "license": "Pexels License"
+    }
+  ],
+  "icons": {
+    "source": "https://github.com/lucide-icons/lucide",
+    "license": "ISC"
+  },
+  "references": [
+    "https://edutest.kz/",
+    "https://joo.kz/ru/weeklytest/",
+    "https://armeta.kz/ru"
+  ],
+  "generated_image": {
+    "file": "hero-clouds-v2.jpg",
+    "original": "../../output/imagegen/sparkbook-hero-clouds-v2.png",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: ads-marketing. Asset type: atmospheric background artwork for the hero of Sparkbook, a premium education mobile app landing page. Create a wide panoramic image, 3:2 aspect ratio, high quality. Only soft sunlit cumulus clouds and airy warm sky, like dreamy editorial photography, exquisitely realistic cloud texture. Palette exclusively creamy white, pale peach, light warm apricot and subtle orange sunlight. Bright almost white calm top half, billowing softly backlit clouds rise along the left and right edges of the lower half, with open luminous negative space through the middle where a phone mockup will be placed by HTML. White mist fades at the bottom. Elegant restrained atmosphere, soft natural daylight, slight fine film grain. No blue, no purple, no dark sunset, no saturation-heavy orange, no objects, no people, no text, no UI, no logos, no phones, no 3D floating shapes. The image must be one coherent sky photograph, not a collage or framed layout.",
+    "usage": "Hero backdrop in v01 and v03."
+  },
+  "version": "v03-clouds-feature-steps",
+  "direction": "Refined v01 cloud-and-phone hero, editorial subject tiles and interactive Feature Steps. v02 floating navigation and footer retained.",
+  "brand": {
+    "original": "sparkbook-logo.png",
+    "source": "User-provided Sparkbook logo",
+    "file": "sparkbook-mark.png",
+    "processing": "App icon cropped and resized to 96px for navigation; no artwork changes."
+  },
+  "libraries": [
+    {
+      "license": "MIT",
+      "usage": "Hero entrance sequence",
+      "source": "https://animejs.com/",
+      "name": "Anime.js",
+      "version": "4.5.0"
+    },
+    {
+      "license": "MIT",
+      "usage": "Scroll reveals and product panel transitions",
+      "source": "https://motion.dev/",
+      "name": "Motion",
+      "version": "14.0.0"
+    },
+    {
+      "author": "Ayushmaan Singh",
+      "name": "Feature Steps / 21st.dev / Serenity UI",
+      "source": "https://21st.dev/@ayushmxxn/components/feature-section",
+      "usage": "Adapted step selector and paired preview to native HTML/CSS/JS with manual selection, keyboard controls and Sparkbook screens",
+      "original": "https://github.com/ayushmxxn/serenity-ui/blob/7a56521236e00221ea3acdce799854e36ac85410/app/components/featuresection/FeatureShowcase.tsx",
+      "source_commit": "7a56521236e00221ea3acdce799854e36ac85410",
+      "license": "MIT"
+    }
+  ],
+  "localization": "Kazakh, Russian and English; static interface copy and interactive quiz; no external translation service.",
+  "qr_mock": "google-play-qr-mock.svg is a local, non-scannable visual placeholder. Replace it with the real app URL QR after publication.",
+  "generated_images": [
+    {
+      "file": "benefits-student.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: a transparent editorial portrait cutout for the benefits section of Sparkbook, an orange, black and white Kazakhstan education app landing page. Create a premium natural studio photograph of one fictional 19-year-old Kazakh male university student with short dark hair and a warm genuinely pleased smile, sitting comfortably on a low almost invisible stool with a plain silver laptop on his lap. Wearing a refined burnt orange cotton crewneck sweatshirt, charcoal trousers and simple off-white sneakers. He is looking at the laptop, one hand near the keyboard, the other hand gently raised in a small celebratory fist near his shoulder, a relaxed authentic moment of understanding a lesson. Entire head, hands, laptop, seated body and shoes visible with generous transparent margin, no cropping of limbs. Framing vertical 4:5; subject centered slightly to the right to allow HTML product details on the left. Soft diffuse daylight, delicate realistic skin and fabric texture, subtle warmth, natural proportions, beautifully defined clean cutout edges. True transparent background and no opaque backdrop. No people besides this single student, no UI, no text, no numbers, no badges, no decorative graphics, no logos, no blue or purple, no gradient background, no mockup frames. The UI and warm arch behind the student will be implemented separately in HTML and CSS.",
+      "usage": "Benefits portrait cutout; HTML badges are illustrative and contain no fabricated metrics."
+    },
+    {
+      "file": "hero-book.png",
+      "original": "C:\\Users\\abish\\.codex\\generated_images\\01a0df61-ade5-7280-871e-54bbaa425163\\exec-6b5874dc-ed0d-4cc5-b4ff-894f100f9a31.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: isolated transparent 3D decorative object for the Sparkbook education landing hero. Primary request: one beautifully rounded open textbook floating in midair, seen in a three-quarter view, tilted slightly toward viewer; cream thick pages forming a graceful V, burnt-orange hardcover and subtle charcoal spine. Style: premium friendly clay/plastic 3D school illustration, smooth rounded bevels, tactile matte materials, soft ambient occlusion, matching a warm orange/cream/charcoal educational mascot render but NO mascot. Lighting: large soft studio key light upper left, warm clean highlights, subtle self-shadow only. Composition: one complete centered object, generous but modest transparent padding around all edges, no ground, no pedestal, no cast shadow below object, no scene. Color palette: vivid orange #FA692C, warm ivory, near-black charcoal; no blue, purple or green. Pages have no writing. Constraints: genuinely transparent alpha background, no person, no hands, no face, no logo, no text, no watermark, no frame, no additional objects, polished 3D render suitable for display at 180-220 CSS pixels.",
+      "usage": "Decorative floating study object; no people."
+    },
+    {
+      "file": "hero-tools.png",
+      "original": "C:\\Users\\abish\\.codex\\generated_images\\01a0df61-ade5-7280-871e-54bbaa425163\\exec-2fd1d5c6-6828-4fb4-a6ca-3ce46ab5f445.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: one isolated transparent 3D study-tools asset for an education landing hero. Primary request: a single short orange wooden pencil and a thick ivory-orange ruler, crossing loosely in midair in a graceful diagonal X with a small gap, one coherent simple study-tools arrangement. Pencil has charcoal graphite tip, creamy wood and ivory eraser; ruler is cream with orange edge and tiny charcoal measurement ticks, NO numbers. Style: premium playful rounded clay/plastic 3D school illustration, deliberately stylized and chunky, not photorealistic. Materials: smooth matte orange #FA692C, warm ivory, charcoal details, rounded bevels, soft ambient occlusion. Lighting: soft studio light from upper left, subtle self-shadow, clean warm highlights. Composition: complete centered objects, three-quarter perspective, dynamic diagonal tilt, modest transparent margin on every side. Genuinely transparent alpha background, no scene, no ground, no pedestal, no background glow, no clouds, no cast shadow. No person, no hands, no face, no letters, no logos, no watermark, no extra objects. Designed to remain readable at 140-200 CSS pixels.",
+      "usage": "Decorative floating study object; no people."
+    },
+    {
+      "file": "hero-math.png",
+      "original": "C:\\Users\\abish\\.codex\\generated_images\\01a0df61-ade5-7280-871e-54bbaa425163\\exec-d7ae5839-2a4e-4fb8-b478-8db4bd767dcb.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: small isolated transparent 3D mathematics decorative asset for a warm educational landing hero. Primary request: two simple separate chunky rounded mathematical symbols floating diagonally as a compact pair: one vivid orange multiplication cross (x, an equal arm times symbol) in front and a smaller warm ivory plus sign behind at the upper left, neither touching. Style: premium friendly clay/plastic 3D school illustration, smooth tactile matte rounded forms, visible thickness in three-quarter perspective, soft ambient occlusion. Lighting: large soft upper-left studio light, restrained warm highlights and self-shadow only. Palette: vivid orange #FA692C and warm cream, no other colors. Composition: complete centered symbols within a square frame with modest transparent padding; airy and readable when small. Constraints: genuine transparent alpha background, no ground, no pedestal, no background gradient or glow, no cast shadow beyond the object, no people, no face, no hands, no letters, no numbers, no words, no logos, no watermark, no extra objects. High quality 3D render, not a flat vector icon.",
+      "usage": "Decorative floating study object; no people."
+    },
+    {
+      "file": "hero-140.png",
+      "original": "C:\\Users\\abish\\.codex\\generated_images\\01a0df61-ade5-7280-871e-54bbaa425163\\exec-cedd950b-c122-441f-bbbd-7428cd34657c.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: isolated transparent 3D typographic icon for an education landing hero. Primary request: the exact number \"140\", representing a goal of 140 points on the Kazakhstan UNT exam. ONLY the three digits 1 4 0 in this order, very clear, upright, in one horizontal row, joined visually as one coherent floating object. Style: premium friendly rounded clay/plastic 3D school illustration matching orange/ivory study objects, chunky bold rounded sans serif numerals, beautiful beveled edges and visible shallow extruded thickness, gentle three-quarter perspective that keeps all digits fully legible. Color: bright warm orange #FA692C digit fronts with softly lit ivory cream side surfaces. Soft studio key light upper left, matte tactile materials, clean warm highlights, restrained ambient occlusion. Composition: complete centered number, landscape frame, modest transparent margin, no ground, no pedestal, no background glow, no scene, no shadow outside object. Constraints: genuine transparent alpha background, number must read EXACTLY 140, no extra digits, no words, no label, no percent sign, no badge, no frame, no trophy, no people, no faces, no hands, no watermark. Designed to read cleanly at 130-180 CSS pixels wide.",
+      "usage": "Decorative 140 UNT score goal, not a guaranteed result."
+    }
+  ]
+}

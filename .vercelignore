@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.vercel/
+.git/
+.env*
+output/
+scripts/
+chetam
+*.tsbuildinfo
